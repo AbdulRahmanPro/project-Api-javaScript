@@ -1,0 +1,86 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'IBM Plex Sans Arabic', sans-serif;
+
+}
+
+body {
+   background-color: #002C3E;
+}
+#Box-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#Posts{
+   position: absolute;
+   top: 20vh;
+}
+
+#title {
+   justify-content: center;
+   height: 70px;
+   width: 200vh;
+   text-align: center;
+   border-radius: 20px 20px 0 0;
+}
+
+
+#users-container {
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   padding: -20px;
+   position: relative;
+   right: 10vh;
+}
+.box-user {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   width: 290px;
+   border-radius: 10px;
+   margin: 10px;
+   background-color: #fff;
+   color: #002C3E;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.box-user:hover {
+   background-color: #002C3E;
+   color: #fff;
+}
+#Sec-Posts {
+   background-color: #F7444E;
+   box-shadow: 10px 10px 100px 10px rgba(0, 0, 0,1);
+   height: 260vh;
+   width: 130vh;
+   position: relative;
+   left: 200px;
+   border-radius: 20px;
+   padding: 50px;
+}
+.Posts {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   width: 690px;
+   border-radius: 10px;
+   margin: 10px;
+   background-color: #fff;
+   color: #002C3E;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   font-size: 15px;
+}  
